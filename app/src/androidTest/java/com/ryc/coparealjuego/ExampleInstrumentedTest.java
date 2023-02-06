@@ -23,3 +23,5 @@ public class ExampleInstrumentedTest {
         assertEquals("com.ryc.coparealjuego", appContext.getPackageName());
     }
 }
+
+
