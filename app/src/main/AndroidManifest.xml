@@ -24,6 +24,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".PrincipalActivity"/>
+        <activity android:name=".NuevoActivity"/>
+        <activity android:name=".LogrosActivity"/>
+        <activity android:name=".ConfActivity"/>
 
     </application>
 

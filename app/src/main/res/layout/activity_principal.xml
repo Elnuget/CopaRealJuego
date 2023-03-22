@@ -8,51 +8,51 @@
 
     <ImageView
         android:id="@+id/imageView30"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="420dp"
+        android:layout_width="422dp"
+        android:layout_height="213dp"
+        android:layout_marginTop="4dp"
         android:src="@drawable/logofondo2"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="H, 44:30"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="242dp"
+        android:layout_height="102dp"
         android:src="@drawable/modeloboton"
-
-        app:layout_constraintDimensionRatio="h,442:50"
         app:layout_constraintBottom_toTopOf="@id/imageView8"
+        app:layout_constraintDimensionRatio="w, 442:100"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageView30"/>
+        app:layout_constraintTop_toBottomOf="@id/imageView30" />
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="240dp"
+        android:layout_height="88dp"
         android:src="@drawable/modeloboton"
-        app:layout_constraintDimensionRatio="h,442:50"
         app:layout_constraintBottom_toTopOf="@id/imageView9"
+        app:layout_constraintDimensionRatio="w, 442:100"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageView" />
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="228dp"
+        android:layout_height="68dp"
         android:src="@drawable/modeloboton"
         app:layout_constraintBottom_toBottomOf="parent"
-
-        app:layout_constraintDimensionRatio="h,442:50"
+        app:layout_constraintDimensionRatio="w, 442:100"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageView8" />
-
 
 
 </android.support.constraint.ConstraintLayout>
