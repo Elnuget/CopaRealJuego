@@ -21,11 +21,9 @@ public class MainActivity extends AppCompatActivity {
         textView3.setVisibility(View.VISIBLE);
         textView3.startAnimation(anim1);
 
-
         Animation anim = AnimationUtils.loadAnimation(this, R.anim.scale);
         ImageView imageView2 = findViewById(R.id.imageView2);
         imageView2.startAnimation(anim);
-
 
         View mainView = findViewById(R.id.MainActivity);
         mainView.setOnClickListener(new View.OnClickListener() {
@@ -35,13 +33,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
     }
-
 }
-
-
-
-
-
-
